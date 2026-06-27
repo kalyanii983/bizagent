@@ -1,0 +1,13 @@
+{
+  "name": "nxtbiz",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "npm run build -w server && npm run build -w client",
+    "dev": "npm run dev -w server & npm run dev -w client"
+  }
+}
