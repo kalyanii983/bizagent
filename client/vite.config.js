@@ -6,6 +6,7 @@ export default defineConfig({
   preview: {
     allowedHosts: ['nxtbiz-client-production.up.railway.app'],
     host: true,
-    port: 8080
+    port: 5173
+
   }
 })
